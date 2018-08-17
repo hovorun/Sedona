@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Sedona</title>
+</head>
+<body>
+<header class="main-header">
+    <nav class="main-header__navigation">
+        <ul>
+            <li class="active">
+                <a class="main-header__navigation_element_first" href="">Информация</a>
+            </li>
+            <li>
+                <a class="main-header__navigation_element_second" href="#">Фото и видео</a>
+            </li>
+            <li>
+                <a class="main-header__navigation_element_third" href="#">Карта штата</a>
+            </li>
+            <li>
+                <a class="main-header__navigation_element_last" href="#">Гостинницы</a>
+            </li>
+        </ul>
+    </nav>
+    <main class=hotel-page">
+        <div class="hotel-page__properties">
+            <div class="hotel-page__properties_infrastructure">
+            <ul>
+                <li>
+                    <b>Инфраструктура</b>
+                </li>
+                <li>
+                    <input placeholder="" name="checkbox" type="checkbox">Бассейн <br>
+                </li>
+                <li>
+                    <input placeholder="" name="checkbox" type="checkbox">Парковка <br>
+                </li>
+                <li>
+                    <input placeholder="" name="checkbox" type="checkbox">Wi-Fi <br>
+                </li>
+            </ul>
+            </div>
+            <div class="hotel-page__properties_living_type">
+                <ul>
+                    <li>
+                        <b>Тип жилья:</b>
+                    </li>
+                    <li>
+                         <input placeholder="" name="checkbox" type="checkbox">Гостинница <br>
+                    </li>
+                    <li>
+                        <input placeholder="" name="checkbox" type="checkbox">Мотель <br>
+                    </li>
+                    <li>
+                        <input placeholder="" name="checkbox" type="checkbox">Апартаменты <br>
+                    </li>
+                </ul>
+            </div>
+            <div class="hotel-page__properties_price">
+                <b>Стоимость в сутки (P:)</b>
+                <form>
+                    <input  type="text" id="minCost" value="0">
+                    <input type="text" id="maxCost" value="5000">
+                    <input type="button" value="Показать" name="btn">
+                </form>
+            </div>
+        </div>
+        <div class="hotel-page__status">
+            <div class="hotel-page__status_founded">
+                <b>Найдено</b>
+            </div>
+        </div>
+        <div class="hotel-page__results">
+            <div class="hotel-page__results_first">
+                <div class="results__image"></div>
+                <div class="results__content">
+                    <b>Amara Resort & SPA</b>
+                    <p>Гостинница</p>
+                    <p> от 4000р.</p>
+                    <div class="result__btn_about">
+                        <a href="#" class="result__btn_link"></a>
+                    </div>
+                    <input type="button" class="result__btn_reserve" value="Забронировать">
+
+                </div>
+            </div>
+            <div class="hotel-page__results_second">
+                <div class="results__image"></div>
+                 <div class="results__content">
+                    <b>Desert Quail Inn </b>
+                    <p>Мотель</p>
+                    <p> от 3000р.</p>
+                    <div class="result__btn_about">
+                        <a href="#" class="result__btn_link"></a>
+                    </div>
+                    <input type="button" class="result__btn_reserve" value="Забронировать">
+                 </div>
+            </div>
+            <div class="hotel-page__results_third">
+                <div class="results__image"></div>
+                <div class="results__content">
+                    <b>Villas At Poco Diablo</b>
+                    <p>Апартаменты</p>
+                    <p> от 2000р.</p>
+                    <div class="result__btn_about">
+                        <a href="#" class="result__btn_link"></a>
+                    </div>
+                    <input type="button" class="result__btn_reserve" value="Забронировать">
+            </div>
+        </div>
+      </div>
+    </main>
+</header>
+</body>
+</html>
